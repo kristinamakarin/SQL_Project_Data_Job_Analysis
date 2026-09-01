@@ -23,10 +23,16 @@ The queries I wrote can be found in the [`project_sql/`](./project_sql/) folder.
 ## The Analysis
 
 ### 1. Top Paying Jobs
-*(fill in after writing the query — brief approach + key finding)*
+
+To identify the highest-paying opportunities, I filtered remote (`Anywhere`) Data Analyst postings with a non-null salary and joined with `company_dim` to include the company name, sorting by `salary_year_avg` in descending order.
+
+**Key finding:** Salaries for the top 10 positions vary widely, from $184,000 to over $650,000 — showing that even within a single job title, compensation depends heavily on factors like seniority, company, and specialization.
 
 ### 2. Skills for Top Paying Jobs
-*(fill in)*
+
+To understand what skills are required for the highest-paying roles, I joined the top 10 highest-paying jobs (from the previous query) with the skills tables, using a CTE to keep the query readable.
+
+**Key finding:** *SQL, Python, Power BI, Tableau...*
 
 ### 3. In-Demand Skills
 *(fill in)*

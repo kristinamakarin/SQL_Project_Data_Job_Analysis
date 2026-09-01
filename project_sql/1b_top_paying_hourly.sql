@@ -1,3 +1,11 @@
+/*
+Question: What are the top-paying Data Analyst jobs by hourly rate?
+- Same approach as the main top-paying query, but ranked by salary_hour_avg
+  instead of salary_year_avg.
+- Why? Annual salary isn't reported for contract/freelance roles, so ranking
+  by hourly rate surfaces high-paying opportunities that the main query misses.
+*/
+
 SELECT
     job_id,
     job_title,
