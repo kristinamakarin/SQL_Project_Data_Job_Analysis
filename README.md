@@ -42,3 +42,13 @@ The queries I wrote can be found in the [`project_sql/`](./project_sql/) folder.
 
 ## Conclusions
 *(fill in at the end — main insights from the whole analysis and takeaways)*
+
+## Bonus: Additional Practice Queries
+
+Alongside the main 5 questions, I wrote a few extra queries to practice variations on the same concepts.
+
+### Top Paying Jobs Without a Degree Requirement
+Explores whether high salaries are achievable without a formal degree by filtering on `job_no_degree_mention`.
+
+### Top Paying Jobs by Hourly Rate
+Same approach as the main "Top Paying Jobs" query, but ranked by `salary_hour_avg` instead of annual salary — useful for contract/freelance roles.
