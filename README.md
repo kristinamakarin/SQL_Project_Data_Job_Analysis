@@ -35,7 +35,10 @@ To understand what skills are required for the highest-paying roles, I joined th
 **Key finding:** *SQL, Python, Power BI, Tableau...*
 
 ### 3. In-Demand Skills
-*(fill in)*
+
+To find the most in-demand skills, I joined job postings with the skills tables and counted how many postings require each skill, grouping by skill and filtering for Data Analyst roles.
+
+**Key finding:** The top 5 most in-demand skills were SQL, Excel, Python, Tableau, and Power BI, with SQL appearing in 92,628 postings — over 25,000 more than the next closest skill (Excel). This highlights that querying ability remains by far the most consistently required skill across the Data Analyst job market, well ahead of visualization tools like Tableau and Power BI.
 
 ### 4. Top Paying Skills
 *(fill in)*
