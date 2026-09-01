@@ -1,0 +1,2 @@
+CREATE DATABASE sql_job_analysis;
+
