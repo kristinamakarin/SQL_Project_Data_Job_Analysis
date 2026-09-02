@@ -91,3 +91,9 @@ As a variation on Query 5, I rewrote the same logic without CTEs — combining d
 Extending the top-paying skills analysis from Query 4, I broke the results down by posting month (January–March) to see whether the list of top-paying skills stays consistent over time.
 
 **Key finding:** Without a demand filter, the top-paying skills per month were dominated by niche outliers (dplyr, Bitbucket, Flask, Django) — the same small-sample effect seen in Query 4. Applying the same `demand_count > 10` filter used in Query 5 produced a more stable, realistic list (NoSQL, Hadoop, Jira), with Hadoop notably appearing in both this monthly breakdown and the overall Query 5 results — reinforcing it as a consistently valuable skill to learn, not just a one-off high-paying anomaly.
+
+### Remote vs. On-site Salary Comparison
+
+Using a `CASE` statement to categorize postings into "Remote" and "On-site" groups, I compared the number of postings and average salary between the two.
+
+**Key finding:** Remote postings pay slightly more on average ($94,770 vs. $93,765) — only about a 1% difference, which isn't meaningful in practice. The bigger story is the volume gap: on-site postings (4,859) vastly outnumber remote ones (604), roughly 8-to-1. This suggests remote flexibility doesn't come with a significant pay premium or penalty — it's simply a much smaller slice of the overall Data Analyst job market.
